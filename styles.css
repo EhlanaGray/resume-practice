@@ -1,0 +1,90 @@
+.jumbotron {
+	margin-bottom: 0 !important;
+	min-width:100%;
+	min-height:100%;
+	background: url("view.jpg") no-repeat center center scroll;
+	position: relative;
+	text-align: center;
+	overflow:hidden;
+	margin: 0px;
+	padding: 0px;
+	
+	
+
+}
+
+html,body{
+	height:100%;
+
+}
+
+.objective,footer{
+	max-width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+@import "compass/css3";
+
+
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row {
+  background: transparent;
+}
+.row i {
+  color: #34495e;
+  border: 2px solid transparent;
+  border-radius: 0%;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.row i:hover {
+  top: -2px;
+  border-radius: 50%;
+}
+.row i:not(:first-child) {
+  margin-left: 1em;
+}
+.row i:nth-child(1) {
+  color: #3b5998;
+  border-bottom-color: #3b5998;
+}
+.row i:nth-child(2) {
+  color: #00a0d1;
+  border-bottom-color: #00a0d1;
+}
+.row i:nth-child(3) {
+  color: #db4a39;
+  border-bottom-color: #db4a39;
+}
+.row i:nth-child(4) {
+  color: #c8232c;
+  border-bottom-color: #c8232c;
+}
+.row i:nth-child(5) {
+  color: #ea4c89;
+  border-bottom-color: #ea4c89;
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	color: #33CCFF !important;
+}
+
+.aboutMe{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+#emailImg:hover{
+	opacity: .25;
+}
+
