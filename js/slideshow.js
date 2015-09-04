@@ -3,13 +3,13 @@ closetime = 15;
 
 
 pict1 = new Image()
-pict1.src = "soccer1.jpg"
+pict1.src = "../img/soccer1.jpg"
 pict2 = new Image()
-pict2.src = "soccer2.jpg"
+pict2.src = "../img/soccer2.jpg"
 pict3 = new Image()
-pict3.src = "soccer3.jpg"
+pict3.src = "../img/soccer3.jpg"
 pict4 = new Image()
-pict4.src = "soccer4.jpg"
+pict4.src = "../img/soccer4.jpg"
 
 slides = 4              // <--number of slides-->
 rotations =75           // <--number of times the show is run-->
